@@ -9,7 +9,7 @@ button3.click(function () {
     if (button3.text() === "Click to Stream" && COUNT < 2) {
         // setting attributes to display iframe also uses css
         var x = document.createElement("IFRAME");
-        x.setAttribute("src", "http://192.168.12.4:8000/index.html");
+        x.setAttribute("src", "http://[enter IP]:8000/index.html");
         x.setAttribute("class","m-5 pb-5");
         document.body.appendChild(x).height = "500";
 
@@ -42,7 +42,7 @@ button3.click(function () {
     else if (button3.text() === "Click to Stream" && COUNT>2) {
         // creating attributes to iframe for it to be displayed with css
         var x = document.createElement("IFRAME");
-        x.setAttribute("src", "http://192.168.12.4:8000/index.html");
+        x.setAttribute("src", "http://[Enter IP]:8000/index.html");
         x.setAttribute("class","m-5 pb-5");
         document.body.appendChild(x).height = "500";
         $.ajax({
