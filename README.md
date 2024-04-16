@@ -13,4 +13,4 @@ I’ve created a cat cam using a raspberry pi4. This cat cam allows a remote use
 - The server runs off of a flask app written in python
 - User interface: html and JavaScript.
 - The display is formatted with css and bootstrap.
-- There is an additional server used to display the camera used from 
+- There is an additional server used to display the camera used from open source: https://picamera.readthedocs.io/en/release-1.13/recipes2.html then rendered by davidplowman and chrisruk on picamera2/examples/mpjeg_server.py 
